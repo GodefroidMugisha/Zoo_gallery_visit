@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GODEFROID PARK</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('forest.webp');
+            background-size: cover;
+            color: white;
+        }
+
+        .header {
+            padding: 40px;
+            text-align: center;
+            background-image: url('sunrise.jpeg');
+            border-radius: 20px;
+            font-family: Broadway;
+            font-size: xx-large;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .navbar {
+            background-color: rgb(73, 62, 62);
+            overflow: hidden;
+            border-radius: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .navbar a {
+            display: inline-block;
+            color: whitesmoke;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .navbar a:hover {
+            background-color: rgb(90, 78, 78);
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .column {
+            flex: 1;
+            max-width: 45%;
+            padding: 10px;
+            margin: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+        }
+
+        .image-gallery {
+            width: 30%;
+            margin: 10px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .description {
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        fieldset {
+            margin: 50px auto;
+            backdrop-filter: blur(12px);
+            border-radius: 20px;
+            width: 90%;
+            max-width: 500px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        input {
+            border-radius: 20px;
+            width: calc(100% - 40px);
+            margin: 10px 20px;
+            height: 40px;
+        }
+
+        input[type="submit"] {
+            width: 45%;
+            margin: 10px 2%;
+        }
+
+        .footer {
+            background-image: url('sunrise.jpeg');
+            width: 100%;
+            padding: 20px;
+            backdrop-filter: blur(18px);
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            font-size: larger;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .navbar a {
+                display: block;
+                width: 100%;
+            }
+
+            .image-gallery {
+                width: 80%;
+            }
+
+            .column {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>GODEFROID PARK</h1>
+</div>
+
+<nav class="navbar">
+    <a href="#">HOME</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">CONTACT</a>
+</nav>
+
+<h1 style="margin: 20px;">WELCOME TO GODEFROID'S PARK WEBSITE !!!</h1>
+
+<div class="row">
+    <div class="column">
+        <p>We are happy to have you here, and we really appreciate you for being on the right website. With the help of RDB (Rwanda Development Board) that has national parks on its objectives, we introduced <b>GODEFROID PARK</b> where you can visit different animals and feel close to the creator as you see them. <b>GODEFROID PARK</b> is in charge of supporting National parks that are located far from the city, because we have a zoo in Kigali city where every individual is able to reach without the complaint of travel. Visit us and feel the beauty of nature with us.</p>
+    </div>
+</div>
+
+<h2 style="margin: 20px;"><b>ANIMALS WE HAVE</b></h2>
+
+<div class="row">
+    <div class="image-gallery">
+        <a href="lion.html"><img src="lion.jpeg" alt="lion with its cub"></a>
+        <div class="description"><a href="lion.html"><p>visit <b>LION</b></p></a></div>
+    </div>
+    <div class="image-gallery">
+        <a href="zebra.html"><img src="zebra.jpg" alt="zebra"></a>
+        <div class="description"><a href="zebra.html"><p>visit <b>ZEBRA</b></p></a></div>
+    </div>
+    <div class="image-gallery">
+        <a href="parrot.html"><img src="parrotbirds.webp" alt="parrot birds"></a>
+        <div class="description"><a href="parrot.html"><p>visit <b>PARROT BIRDS</b></p></a></div>
+    </div>
+    <div class="image-gallery">
+        <a href="hippo.html"><img src="hippo.jpg" alt="hippo"></a>
+        <div class="description"><a href="hippo.html"><p>visit <b>HIPPO</b></p></a></div>
+    </div>
+    <div class="image-gallery">
+        <a href="bufalo.html"><img src="bufalo.webp" alt="bufalo"></a>
+        <div class="description"><a href="bufalo.html"><p>visit <b>BUFALO</b></p></a></div>
+    </div>
+    <div class="image-gallery">
+        <a href="elephant.html"><img src="elephant.jpg" alt="elephant"></a>
+        <div class="description"><a href="elephant.html"><p>visit <b>ELEPHANT</b></p></a></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <h2><u>GUIDANCE</u></h2>
+        <p>Visit us and feel the beauty of nature. We are announcing to every visitor to not leave the team support, however you are crossing over the park don't walk alone to avoid any trouble. If you feel uncomfortable, or feeling ill, please tell one of your guides to get quick support. If you find out that someone is missing, try to give information on time to see if we can help. Some of the animals we have, have their habits and we have the main way to act in front of them, please don't do any sign if you are not told to do so. Respect the rules and regulations so that you feel the beauty of nature with GODEFROID PARK.</p>
+    </div>
+</div>
+
+<div>
+    <fieldset>
+        <form action="IDENTIFICATION">
+            <h2>FILL THE FORM TO JOIN US</h2>
+            <label for="fname">FIRST NAME</label><br>
+            <input type="text" id="fname" name="first name" placeholder="First name"><br>
+            <label for="lname">LAST NAME</label><br>
+            <input type="text" id="lname" name="last name" placeholder="Last name"><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="password"><br>
+            <br>
+            <input type="submit" value="Login"><b> OR </b><input type="submit" value="Sign Up">
+        </form>
+    </fieldset>
+</div>
+
+<div class="footer">
+    GODEFROID &COPY; PARK
+</div>
+
+</body>
+</html>
